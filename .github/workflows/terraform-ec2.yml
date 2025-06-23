@@ -3,7 +3,7 @@ name: Deploy EC2 with Terraform
 on:
   push:
     branches:
-      - GitHub_actions
+      - terraform-destroy
 
 jobs:
   terraform:
